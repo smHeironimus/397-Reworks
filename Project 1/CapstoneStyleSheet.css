@@ -1,0 +1,196 @@
+﻿/* id uses # */
+/* class uses . */
+
+body {
+    background: white;
+}
+
+#title {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+#stripe {
+    background: #BA0C2F;
+    height: 45px;
+}
+
+#submit_button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px 15px;
+    background-color: #BA0C2F;
+    border: none;
+    color: white;
+    text-align: center;
+    margin: 30px 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#editor_button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 15px;
+    background-color: #BA0C2F;
+    border: none;
+    color: white;
+    text-align: center;
+    margin: 30px 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#back_button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 15px;
+    background-color: #BA0C2F;
+    border: none;
+    color: white;
+    text-align: center;
+    margin: 30px 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#continue_button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px 15px;
+    background-color: #BA0C2F;
+    border: none;
+    color: white;
+    text-align: center;
+    margin: 30px 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#home_button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 15px;
+    background-color: #BA0C2F;
+    border: none;
+    color: white;
+    text-align: center;
+    margin: 30px 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#editor_to_home {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px 15px;
+    background-color: #BA0C2F;
+    border: none;
+    color: white;
+    text-align: center;
+    margin: 30px 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*major label*/
+#major_select {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+/*honors core label*/
+#honors_core {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    margin-right: 5px;
+}
+
+/*min credit hours label*/
+#minCreditHours {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-right: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*max credit hours label*/
+#maxCreditHours {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*start semester label*/
+#semsterStart {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+/*fall or spring check*/
+#rblCheck {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+/*semesters remaining label*/
+#remainingSemesters {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+/*class editor label*/
+#classSelectEdit {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+#add_button {
+    padding: 10px 15px;
+    background-color: #BA0C2F;
+    border: none;
+    color: white;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 200px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#edit_button {
+    padding: 10px 15px;
+    background-color: #BA0C2F;
+    border: none;
+    color: white;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#remove_button {
+    padding: 10px 15px;
+    background-color: #BA0C2F;
+    border: none;
+    color: white;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}

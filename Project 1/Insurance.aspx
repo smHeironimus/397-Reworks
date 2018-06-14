@@ -12,6 +12,7 @@
     <form id="form1" runat="server">
         <div class="sidenav">
             <a href="Main.aspx">Home</a>
+            <a href="Startup.aspx">Capstone</a>
             <a href="GradeCalc.aspx">Calculator</a>
             <a href="Insurance.aspx">Insurance</a>
             <a href="Makeover.aspx">Makeover</a>

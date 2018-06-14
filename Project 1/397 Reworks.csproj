@@ -68,17 +68,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Courses.mdb" />
+    <Content Include="CapstoneStyleSheet.css" />
+    <Content Include="CompletedClasses.aspx" />
+    <Content Include="Editor.aspx" />
     <Content Include="Main.aspx" />
     <Content Include="Makeover.aspx" />
     <Content Include="Parking.aspx" />
     <Content Include="Rentals.aspx" />
+    <Content Include="Startup.aspx" />
     <Content Include="StyleSheet1.css" />
+    <Content Include="TentativeSchedule.aspx" />
     <Content Include="THR.aspx" />
     <Content Include="GradeCalc.aspx" />
     <Content Include="Insurance.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompletedClasses.aspx.cs">
+      <DependentUpon>CompletedClasses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompletedClasses.aspx.designer.cs">
+      <DependentUpon>CompletedClasses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Editor.aspx.cs">
+      <DependentUpon>Editor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Editor.aspx.designer.cs">
+      <DependentUpon>Editor.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Main.aspx.cs">
       <DependentUpon>Main.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -106,6 +126,20 @@
     </Compile>
     <Compile Include="Rentals.aspx.designer.cs">
       <DependentUpon>Rentals.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Startup.aspx.cs">
+      <DependentUpon>Startup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Startup.aspx.designer.cs">
+      <DependentUpon>Startup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TentativeSchedule.aspx.cs">
+      <DependentUpon>TentativeSchedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TentativeSchedule.aspx.designer.cs">
+      <DependentUpon>TentativeSchedule.aspx</DependentUpon>
     </Compile>
     <Compile Include="THR.aspx.cs">
       <DependentUpon>THR.aspx</DependentUpon>
@@ -139,6 +173,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
