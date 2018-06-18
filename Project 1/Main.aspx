@@ -23,7 +23,7 @@
         <a href="#.aspx">Placeholder</a>
     </div>
     <div class="main">
-        <h2>Insert Information Here</h2>
+        <h2>Along the side are previous class projects as well as a non-fuctioning cleaned up version of my senior capstone project.</h2>
     </div>
 </body>
 </html>
