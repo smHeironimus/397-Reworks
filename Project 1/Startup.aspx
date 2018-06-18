@@ -17,6 +17,10 @@
             <asp:Button ID="home_button" runat="server" Text="Main" OnClick="home_button_Click"/>
         </div>
 
+        <div id="notice">
+            <asp:Label ID="noticelbl" runat="server" Font-Names="font-family: arial, helvetica, sans-serif;"></asp:Label>
+        </div>
+
         <br />
         <br />
         <br />

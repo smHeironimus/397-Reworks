@@ -11,7 +11,7 @@ namespace Strategic_Advising_ASP
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            noticelbl.Text = "This is NOT a fuctioning build, refer to the <a class=info href=https://github.com/kevin6017/Strategic-Advising Target=_blank>Github<span> repository</span></a>";
         }
 
         protected void submit_button_Click(object sender, EventArgs e)

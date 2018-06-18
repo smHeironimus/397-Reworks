@@ -40,6 +40,15 @@ namespace Strategic_Advising_ASP {
         protected global::System.Web.UI.WebControls.Button home_button;
         
         /// <summary>
+        /// noticelbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label noticelbl;
+        
+        /// <summary>
         /// major_select control.
         /// </summary>
         /// <remarks>
